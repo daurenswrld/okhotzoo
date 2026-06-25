@@ -1,0 +1,145 @@
+[
+    {
+        "key": "group_66724a1b02422",
+        "title": "Государственные закупки",
+        "fields": [
+            {
+                "key": "field_66724ba802423",
+                "label": "Список закупок",
+                "name": "purchases_list",
+                "type": "repeater",
+                "instructions": "Добавьте проводимые государственные закупки.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_66724ba802425",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Добавить закупку",
+                "sub_fields": [
+                    {
+                        "key": "field_66724ba802424",
+                        "label": "Номер закупки",
+                        "name": "purch_num",
+                        "type": "text",
+                        "instructions": "Например: 2026-001",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "15",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724ba802425",
+                        "label": "Предмет закупки",
+                        "name": "purch_title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "35",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724ba802426",
+                        "label": "Сумма (тенге)",
+                        "name": "purch_price",
+                        "type": "text",
+                        "instructions": "Например: 12 400 000",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "15",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724ba802427",
+                        "label": "Способ закупки",
+                        "name": "purch_method",
+                        "type": "text",
+                        "instructions": "Например: Конкурс, Запрос цен",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "15",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Конкурс"
+                    },
+                    {
+                        "key": "field_66724ba802428",
+                        "label": "Срок подачи",
+                        "name": "purch_deadline",
+                        "type": "text",
+                        "instructions": "Например: 01.06.2025",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "10",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724ba802429",
+                        "label": "Статус",
+                        "name": "purch_status",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "10",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "open": "Открыт",
+                            "planned": "Планируется",
+                            "closed": "Завершен"
+                        },
+                        "default_value": "open",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-goszakup.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

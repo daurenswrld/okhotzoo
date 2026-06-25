@@ -1,0 +1,114 @@
+[
+    {
+        "key": "group_documents_page_fields",
+        "title": "Страница документов",
+        "fields": [
+            {
+                "key": "field_doc_tabs",
+                "label": "Вкладки документов (Табы)",
+                "name": "document_tabs",
+                "type": "repeater",
+                "instructions": "Создайте вкладки (категории) документов и добавьте файлы в каждую из них.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_doc_tab_title",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Добавить вкладку",
+                "sub_fields": [
+                    {
+                        "key": "field_doc_tab_title",
+                        "label": "Название вкладки",
+                        "name": "tab_title",
+                        "type": "text",
+                        "instructions": "Например: Нормативная база, Отчёты, Финансы",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_doc_tab_documents",
+                        "label": "Список документов",
+                        "name": "tab_documents",
+                        "type": "repeater",
+                        "instructions": "Добавьте файлы в эту категорию.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "field_doc_tab_doc_title",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "row",
+                        "button_label": "Добавить документ",
+                        "sub_fields": [
+                            {
+                               "key": "field_doc_tab_doc_title",
+                               "label": "Название документа",
+                               "name": "doc_title",
+                               "type": "text",
+                               "required": 1,
+                               "wrapper": {
+                                   "width": "40"
+                               }
+                            },
+                            {
+                               "key": "field_doc_tab_doc_meta",
+                               "label": "Мета-информация",
+                               "name": "doc_meta",
+                               "type": "text",
+                               "instructions": "Например: Размер: 1.2 MB · PDF",
+                               "required": 0,
+                               "wrapper": {
+                                   "width": "30"
+                               }
+                            },
+                            {
+                               "key": "field_doc_tab_doc_file",
+                               "label": "Файл",
+                               "name": "doc_file",
+                               "type": "file",
+                               "required": 1,
+                               "return_format": "url",
+                               "wrapper": {
+                                   "width": "30"
+                               }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-documents.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

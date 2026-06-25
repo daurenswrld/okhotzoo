@@ -1,0 +1,414 @@
+[
+    {
+        "key": "group_66724a1b02430",
+        "title": "Основные настройки",
+        "fields": [
+            {
+                "key": "field_66724ba802431",
+                "label": "Контакты",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba802432",
+                "label": "Адрес",
+                "name": "contact_address",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "г. Астана, ул. Сауран 20, уч. 2, БЦ «Нурлы Тау»"
+            },
+            {
+                "key": "field_66724ba802433",
+                "label": "Телефон (отображаемый)",
+                "name": "contact_phone",
+                "type": "text",
+                "instructions": "Например: +7 (7172) 00-00-00",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "+7 (7172) 00-00-00"
+            },
+            {
+                "key": "field_66724ba802434",
+                "label": "Телефон (ссылка)",
+                "name": "contact_phone_raw",
+                "type": "text",
+                "instructions": "Только цифры с плюсом. Например: +77172000000",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "+77172000000"
+            },
+            {
+                "key": "field_66724ba802435",
+                "label": "Email",
+                "name": "contact_email",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "info@okhotzooprom.kz"
+            },
+            {
+                "key": "field_66724ba802436",
+                "label": "Режим работы",
+                "name": "contact_hours",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Пн–Пт: 09:00–18:00 (обед 13:00–14:30)"
+            },
+            {
+                "key": "field_66724ba802437",
+                "label": "Текст ссылки Схемы проезда",
+                "name": "contact_map_btn_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Схема проезда в территориальные подразделения"
+            },
+            {
+                "key": "field_66724ba802438",
+                "label": "Ссылка на Схему проезда",
+                "name": "contact_map_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#!"
+            },
+            {
+                "key": "field_66724ba802442",
+                "label": "Ссылка на карту Яндекс",
+                "name": "yandex_map_link",
+                "type": "text",
+                "instructions": "Ссылка для перехода при клике по карте",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "https://yandex.ru/maps/"
+            },
+            {
+                "key": "field_66724ba802443",
+                "label": "Код встраивания карты (iframe)",
+                "name": "contact_map_iframe",
+                "type": "textarea",
+                "instructions": "Вставьте iframe код от Яндекс Карт или Google Maps.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "<div style=\"position:relative;overflow:hidden;\"><a href=\"https://yandex.kz/maps/ru/org/mart/187070383343/?lang=ru&utm_medium=mapframe&utm_source=maps\" style=\"color:#eee;font-size:12px;position:absolute;top:0px;\">Mart</a><a href=\"https://yandex.kz/maps/ru/21094/taraz/category/shopping_mall/184108083/?lang=ru&utm_medium=mapframe&utm_source=maps\" style=\"color:#eee;font-size:12px;position:absolute;top:14px;\">Торговый центр в Таразе</a><iframe src=\"https://yandex.kz/map-widget/v1/?ll=71.380850%2C42.896746&mode=poi&poi%5Bpoint%5D=71.389159%2C42.900048&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D187070383343&z=14.12\" frameborder=\"1\" allowfullscreen=\"true\" style=\"position:relative;\"></iframe></div>",
+                "new_lines": "",
+                "rows": 4
+            },
+            {
+                "key": "field_66724ba802439",
+                "label": "Социальные сети",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba80243a",
+                "label": "Instagram Link",
+                "name": "social_instagram",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_66724ba80243b",
+                "label": "Twitter (X) Link",
+                "name": "social_twitter",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_66724ba80243c",
+                "label": "Whatsapp Link",
+                "name": "social_whatsapp",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_66724ba80243d",
+                "label": "Mail.ru Link",
+                "name": "social_mailru",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_66724ba80243e",
+                "label": "Шапка / Логотип",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba80243f",
+                "label": "Логотип сайта",
+                "name": "site_logo",
+                "type": "image",
+                "instructions": "Рекомендуется формат WebP/PNG",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all"
+            },
+            {
+                "key": "field_66724ba802440",
+                "label": "Заголовок логотипа (Русский)",
+                "name": "logo_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "ПО «Охотзоопром»"
+            },
+            {
+                "key": "field_66724ba802440_kk",
+                "label": "Заголовок логотипа (Казахский)",
+                "name": "logo_title_kk",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "«Охотзоопром» ӨБ"
+            },
+            {
+                "key": "field_66724ba802441",
+                "label": "Подзаголовок логотипа (Русский)",
+                "name": "logo_subtitle",
+                "type": "textarea",
+                "instructions": "Допускается использование тегов вроде <br>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "РГКП - Комитет лесного хозяйства<br>и животного мира",
+                "new_lines": "br",
+                "rows": 2
+            },
+            {
+                "key": "field_66724ba802441_kk",
+                "label": "Подзаголовок логотипа (Казахский)",
+                "name": "logo_subtitle_kk",
+                "type": "textarea",
+                "instructions": "Допускается использование тегов вроде <br>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "РМҚК - Орман шаруашылығы<br>және жануарлар дүниесі комитеті",
+                "new_lines": "br",
+                "rows": 2
+            },
+            {
+                "key": "field_66724ba802444",
+                "label": "Футер",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba802445",
+                "label": "Описание в футере",
+                "name": "footer_description",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "РГКП «ПО Охотзоопром» - Комитет лесного хозяйства и животного мира Министерства экологии и природных ресурсов РК",
+                "new_lines": "br",
+                "rows": 2
+            },
+            {
+                "key": "field_66724ba802446",
+                "label": "Текст копирайта",
+                "name": "footer_copyright",
+                "type": "text",
+                "instructions": "Символ © и год выводятся автоматически.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "РГКП «ПО Охотзоопром». Официальный сайт."
+            },
+            {
+                "key": "field_66724ba802447",
+                "label": "Название ведомства/комитета",
+                "name": "footer_agency",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Комитет лесного хозяйства и животного мира - МЭиПР РК"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "general"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

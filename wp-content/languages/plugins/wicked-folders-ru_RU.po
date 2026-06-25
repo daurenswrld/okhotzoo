@@ -1,0 +1,313 @@
+# Translation of Plugins - Wicked Folders &#8211; Folder Organizer for Pages, Posts, and Custom Post Types - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Wicked Folders &#8211; Folder Organizer for Pages, Posts, and Custom Post Types - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-11-10 17:13:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Wicked Folders &#8211; Folder Organizer for Pages, Posts, and Custom Post Types - Stable (latest release)\n"
+
+#: classes/collection.php:165
+msgid "Item must be "
+msgstr "Элемент должен быть "
+
+#: admin-templates/settings-page-general.php:90
+msgid "When checked (default), a search field is displayed above the folder tree that allows you to search folders by name."
+msgstr "Если флажок установлен (по умолчанию), над деревом папок отображается поле поиска, позволяющее выполнять поиск папок по имени."
+
+#: admin-templates/settings-page-general.php:89
+msgid "Show folder search"
+msgstr "Показать поиск по папкам"
+
+#: admin-templates/settings-page-general.php:66
+msgid "When checked (default), the number of items assigned to each folder is displayed next to the folder's name."
+msgstr "Если флажок установлен (по умолчанию), рядом с именем папки отображается количество элементов, назначенных каждой папке."
+
+#: admin-templates/settings-page-general.php:65
+msgid "Show number of items in each folder"
+msgstr "Показать количество элементов в каждой папке"
+
+#: admin-templates/settings-page-general.php:50
+msgid "Gravity Forms Forms"
+msgstr "Формы Gravity Forms"
+
+#: admin-templates/settings-page-general.php:45
+msgid "Gravity Forms Entries"
+msgstr "Записи Gravity Forms"
+
+#: admin-templates/settings-page-general.php:39
+msgid "Users"
+msgstr "Пользователи"
+
+#: admin-templates/settings-page-general.php:34
+msgid "Plugins"
+msgstr "Плагины"
+
+#: classes/admin.php:353 classes/admin.php:366
+msgid "(no title)"
+msgstr "(без заголовка)"
+
+#: admin-templates/settings-page-general.php:138
+msgid "When checked (default), navigating between folders will not cause the page to reload."
+msgstr "Если отмечено (по умолчанию), навигация между папками не приведет к перезагрузке страницы."
+
+#: admin-templates/settings-page-general.php:137
+msgid "Don't reload page when navigating folders"
+msgstr "Не перезагружать страницу при навигации по папкам"
+
+#: admin-templates/settings-page-general.php:101
+msgid "Show folder breadcrumbs"
+msgstr "Показывать навигационные цепочки"
+
+#: admin-templates/settings-page-general.php:102
+msgid "Displays a breadcrumb trail at the top of post lists."
+msgstr "Отображает навигационные цепочки в верхней части списка записей."
+
+#: admin-templates/settings-page-general.php:266
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: admin-templates/settings-page-general.php:264
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: admin-templates/settings-page-general.php:78
+msgid "When checked (default), the 'Unassigned Items' folder will always be shown in the folder pane.  When left unchecked, the 'Unassigned Items' folder will appear as a child folder within 'Dynamic Folders'."
+msgstr "Если отмечено (по умолчанию), папка \"Неназначенные элементы\" всегда будет отображаться на панели папок.  Если не отмечено, папка «Неназначенные элементы» будет отображаться как дочерняя папка в «Динамических папках»."
+
+#: admin-templates/settings-page-general.php:77
+msgid "Show unassigned items folder"
+msgstr "Показать папку неназначенных элементов"
+
+#: admin-templates/settings-page-general.php:114
+msgid "When unchecked (default), folders will be displayed as a comma-separated list in the folder column that appears in post lists.  When checked, a breadcrumb path will be displayed showing the hierarchy of each folder the item is assigned to."
+msgstr "Если не отмечено (по умолчанию), папки будут отображаться в виде списка, разделенного запятыми, в столбце папок, который отображается в списках записей.  Если отмечено, отобразится путь к навигационной цепочке, показывающий иерархию каждой папки, которой назначен элемент."
+
+#: admin-templates/settings-page-general.php:113
+msgid "Show folder hierarchy in folder column"
+msgstr "Показать иерархию папок в столбце папки"
+
+#: classes/admin.php:448
+msgid "Elementor Templates"
+msgstr "Шаблоны Elementor"
+
+#: admin-templates/settings-page-general.php:239
+msgid "When unchecked (default) and a folder is selected, only media assigned to that folder will be displayed.  When checked, media in the selected folder *and* media in any of the folder's child folders will be displayed."
+msgstr "Если не отмечено (по умолчанию) и выбрана папка, будут отображаться только медиа, назначенные этой папке.  Если отмечено, то отобразятся медиа в выбранной папке *и* медиа в любой из дочерних папок папки."
+
+#: admin-templates/settings-page-general.php:238
+msgid "Include media from child folders"
+msgstr "Включить медиа из дочерних папок"
+
+#: admin-templates/settings-page-general.php:125
+msgid "Include items from child folders"
+msgstr "Включить элементы из дочерних папок"
+
+#: classes/post-hierarchy-dynamic-folder.php:193
+msgid "Hierarchy"
+msgstr "Иерархия"
+
+#: classes/admin.php:337
+msgid "Move to Folder"
+msgstr "Переместить в папку"
+
+#: admin-templates/settings-page.php:28
+msgid "Upgrade to <a href=\"https://wickedplugins.com/plugins/wicked-folders/?utm_source=core_settings&utm_campaign=wicked_folders&utm_content=sidebar_text_link\" target=\"_blank\">Wicked Folders Pro</a> to organize your media library using folders!"
+msgstr "Обновитесь до <a href=\"https://wickedplugins.com/plugins/wicked-folders/?utm_source=core_settings&utm_campaign=wicked_folders&utm_content=sidebar_text_link\" target=\"_blank\">Wicked Folders Pro</a>, чтобы организовать свою медиатеку с помощью папок!"
+
+#: admin-templates/settings-page-general.php:54
+msgid "<a href=\"https://wickedplugins.com/plugins/wicked-folders/?utm_source=core_settings&utm_campaign=wicked_folders&utm_content=post_types\" target=\"_blank\">Upgrade to Wicked Folders Pro</a> to manage media, users, plugins, and more using folders."
+msgstr "<a href=\"https://wickedplugins.com/plugins/wicked-folders/?utm_source=core_settings&utm_campaign=wicked_folders&utm_content=post_types\" target=\"_blank\">Обновитесь до Wicked Folders Pro</a> для управления медиа, пользователями, плагинами и многим другим с помощью папок."
+
+#: admin-templates/settings-page-general.php:280 dist/folders.js:1
+msgid "Close"
+msgstr "Закрыть"
+
+#: classes/term-folder.php:212
+msgid "(Copy %1$d)"
+msgstr "(Копировать %1$d)"
+
+#: admin-templates/settings-page-general.php:227
+msgid "When checked, the dropdown that lets you to choose which folder to assign new uploads to will change as you browse folders and default to the currently selected folder. If left unchecked, the dropdown will default to no folder selected."
+msgstr "Если отмечено, раскрывающийся список, позволяющий выбрать папку для назначения новых загрузок, изменится по мере просмотра папок и по умолчанию изменится на текущую выбранную папку. Если не отмечено, в раскрывающемся списке по умолчанию папка не выбрана."
+
+#: admin-templates/settings-page-general.php:226
+msgid "Sync folder upload dropdown"
+msgstr "Раскрывающийся список загрузки папок синхронизации"
+
+#: admin-templates/settings-page-general.php:217
+msgid "Media"
+msgstr "Медиа"
+
+#: admin-templates/settings-page.php:32
+msgid "Wicked Plugins specializes in crafting high-quality, reliable plugins that extend WordPress in powerful ways while being simple and intuitive to use.  We’re full-time developers who know WordPress inside and out and our customer happiness engineers offer friendly support for all our products.  <a href=\"https://wickedplugins.com/?utm_source=core_settings&utm_campaign=wicked_plugins&utm_content=about_link\" target=\"_blank\">Visit our website</a> to learn more about us."
+msgstr "Wicked Plugins специализируется на создании высококачественных, надежных плагинов, которые расширяют значительно WordPress, будучи простыми и интуитивно понятными в использовании.  Мы являемся штатными разработчиками, которые знают WordPress изнутри и снаружи, и наши специалисты поддержки предлагают дружескую поддержку для всех наших продуктов.  <a href=\"https://wickedplugins.com/?utm_source=core_settings&utm_campaign=wicked_plugins&utm_content=about_link\" target=\"_blank\">Посетите наш сайт,</a> чтобы узнать больше о нас."
+
+#: admin-templates/settings-page.php:31
+msgid "About Wicked Plugins"
+msgstr "О Wicked Plugins"
+
+#: admin-templates/settings-page.php:27
+msgid "Screenshot of media library using Wicked Folders Pro"
+msgstr "Снимок экрана медиатека с использованием Wicked Folders Pro"
+
+#: admin-templates/settings-page.php:26
+msgid "Media Library Folders!"
+msgstr "Папки медиатеки!"
+
+#: admin-templates/settings-page.php:21
+msgid "Thanks for using Wicked Folders!"
+msgstr "Спасибо за использование Wicked Folders!"
+
+#: classes/unassigned-dynamic-folder.php:18
+msgid "Unassigned Items"
+msgstr "Неназначенные элементы"
+
+#: classes/author-dynamic-folder.php:21
+msgid "All Authors"
+msgstr "Все авторы"
+
+#: classes/date-dynamic-folder.php:31 classes/date-dynamic-folder.php:234
+msgid "All Dates"
+msgstr "За все время"
+
+#: admin-templates/settings-page-general.php:187
+msgid "Enable dynamic folders for:"
+msgstr "Включить динамические папки для:"
+
+#: admin-templates/settings-page-general.php:182
+#: classes/all-folders-collection.php:36
+msgid "Dynamic Folders"
+msgstr "Динамические папки"
+
+#: admin-templates/settings-page-general.php:8
+msgid "Enable folders for:"
+msgstr "Включить папки для:"
+
+#: admin-templates/settings-page-general.php:183
+msgid "Dynamic folders are generated on the fly based on your content.  They are useful for finding content based on things like date, author, etc."
+msgstr "Динамические папки создаются на лету на основе вашего содержимого.  Они полезны для поиска контента на основе таких вещей, как дата, автор и т.д."
+
+#. Author URI of the plugin
+#: wicked-folders.php
+msgid "https://wickedplugins.com/"
+msgstr "https://wickedplugins.com/"
+
+#. Author of the plugin
+#: wicked-folders.php
+msgid "Wicked Plugins"
+msgstr "Wicked Plugins"
+
+#. Description of the plugin
+#: wicked-folders.php
+msgid "Organize your pages into folders."
+msgstr "Организуйте свои страницы по папкам."
+
+#. Plugin URI of the plugin
+#: wicked-folders.php
+msgid "https://wickedplugins.com/wicked-folders/"
+msgstr "https://wickedplugins.com/wicked-folders/"
+
+#: classes/all-folders-collection.php:51 classes/folder-factory.php:44
+msgid "All Folders"
+msgstr "Все папки"
+
+#: classes/wicked-folders.php:288
+msgctxt "Taxonomy plural name"
+msgid "Folders"
+msgstr "Папки"
+
+#: classes/wicked-folders.php:283
+msgid "Search Folders"
+msgstr "Поиск каталогов"
+
+#: classes/wicked-folders.php:281
+msgid "Add Folder Name"
+msgstr "Добавить имя папки"
+
+#: classes/wicked-folders.php:279
+msgid "Update Folder"
+msgstr "Обновить папку"
+
+#: classes/wicked-folders.php:277
+msgid "All %1$s Folders"
+msgstr "Все %1$s папки"
+
+#: classes/wicked-folders.php:276
+msgctxt "Taxonomy singular name"
+msgid "%1$s Folder"
+msgstr "%1$s папка"
+
+#: classes/wicked-folders.php:275
+msgctxt "Taxonomy plural name"
+msgid "%1$s Folders"
+msgstr "%1$s папки"
+
+#: classes/folder.php:152
+msgid "Untitled folder"
+msgstr "Папка без названия"
+
+#: classes/admin.php:658
+msgid "Your changes have been saved."
+msgstr "Ваши изменения были сохранены."
+
+#: classes/term-folder.php:125
+msgid "A folder with that name already exists in the selected parent folder. Please enter a different name or select a different parent folder."
+msgstr "Папка с таким названием уже существует в выбранной родительской папке. Введите другое название или другую родительскую папку."
+
+#: classes/admin.php:386 classes/admin.php:664 dist/folders.js:1
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/admin.php:337
+msgid "Move selected items"
+msgstr "Переместить выбранные элементы"
+
+#. Plugin Name of the plugin
+#: wicked-folders.php classes/admin.php:321
+msgid "Wicked Folders"
+msgstr "Wicked Folders"
+
+#: classes/wicked-folders.php:284 dist/folders.js:1
+msgid "Parent Folder"
+msgstr "Родительская папка"
+
+#: classes/wicked-folders.php:278 dist/folders.js:1
+msgid "Edit Folder"
+msgstr "Редактировать папку"
+
+#: classes/wicked-folders.php:280 dist/folders.js:1
+msgid "Add New Folder"
+msgstr "Добавить новую папку"
+
+#: admin-templates/settings-page.php:2 classes/admin.php:320
+msgid "Wicked Folders Settings"
+msgstr "Настройки Wicked Folders"
+
+#: admin-templates/settings-page-general.php:273
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: admin-templates/settings-page-general.php:251
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: admin-templates/settings-page-general.php:247
+msgid "Wicked Folders Pro"
+msgstr "Wicked Folders Pro"
+
+#: admin-templates/settings-page-general.php:4
+msgid "General"
+msgstr "Общее"
+
+#: classes/wicked-folders.php:282 dist/folders.js:1
+msgid "Folders"
+msgstr "Папки"
+
+#: classes/tree-view.php:102
+msgid "All items must be of type Wicked_Folders\\Folder."
+msgstr "Все элементы должны быть типа Wicked_Folders\\Folder."

@@ -1,0 +1,709 @@
+[
+    {
+        "key": "group_66724a1b023ef",
+        "title": "Главная страница",
+        "fields": [
+            {
+                "key": "field_66724a3c023f0",
+                "label": "Hero",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724a68023f1",
+                "label": "Надзаголовок (Badge)",
+                "name": "hero_badge",
+                "type": "text",
+                "instructions": "Текст над главным заголовком.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "РГКП «ПО Охотзоопром» · Республика Казахстан"
+            },
+            {
+                "key": "field_66724a8d023f2",
+                "label": "Главный заголовок",
+                "name": "hero_title",
+                "type": "textarea",
+                "instructions": "Главный заголовок блока (можно использовать тег &lt;span class=\"highlight\"&gt;текст&lt;/span&gt; для подсветки зелёным).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Сохраняем <span class=\"highlight\">животный мир</span> для будущих поколений",
+                "new_lines": "br",
+                "rows": 3
+            },
+            {
+                "key": "field_66724ab2023f3",
+                "label": "Подзаголовок",
+                "name": "hero_subtitle",
+                "type": "textarea",
+                "instructions": "Описание под главным заголовком.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Государственное предприятие в сфере охраны, воспроизводства и рационального использования животного мира Республики Казахстан.",
+                "new_lines": "br",
+                "rows": 3
+            },
+            {
+                "key": "field_66724ad4023f4",
+                "label": "Текст кнопки 1",
+                "name": "hero_btn1_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "О предприятии"
+            },
+            {
+                "key": "field_66724ae5023f5",
+                "label": "Ссылка кнопки 1",
+                "name": "hero_btn1_link",
+                "type": "text",
+                "instructions": "Относительная (например, /about) или абсолютная ссылка.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "/about"
+            },
+            {
+                "key": "field_66724af7023f6",
+                "label": "Текст кнопки 2",
+                "name": "hero_btn2_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Обращение граждан"
+            },
+            {
+                "key": "field_66724b08023f7",
+                "label": "Ссылка кнопки 2",
+                "name": "hero_btn2_link",
+                "type": "text",
+                "instructions": "Относительная (например, /appeal) или абсолютная ссылка.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "/appeal"
+            },
+            {
+                "key": "field_66724b22023f8",
+                "label": "Статистика",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724b3b023f9",
+                "label": "Карточки статистики",
+                "name": "hero_stats",
+                "type": "repeater",
+                "instructions": "Добавьте карточки с цифрами и подписями.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_66724b74023fa",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Добавить показатель",
+                "sub_fields": [
+                    {
+                        "key": "field_66724b74023fa",
+                        "label": "Число / Показатель",
+                        "name": "stat_number",
+                        "type": "text",
+                        "instructions": "Например: 17, 30, 1.2, 400",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724b94023fb",
+                        "label": "Суффикс",
+                        "name": "stat_suffix",
+                        "type": "text",
+                        "instructions": "Например: +, лет, млн (будет уменьшенным шрифтом)",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724ba8023fc",
+                        "label": "Описание",
+                        "name": "stat_label",
+                        "type": "textarea",
+                        "instructions": "Текст описания под цифрой.",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "new_lines": "br",
+                        "rows": 2
+                    }
+                ]
+            },
+            {
+                "key": "field_66724ba8023fd",
+                "label": "Направления деятельности",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba8023fe",
+                "label": "Заголовок блока",
+                "name": "directions_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Основные направления деятельности"
+            },
+            {
+                "key": "field_66724ba8023ff",
+                "label": "Текст ссылки Подробнее",
+                "name": "directions_btn_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Подробнее"
+            },
+            {
+                "key": "field_66724ba802400",
+                "label": "Ссылка Подробнее",
+                "name": "directions_btn_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "/activity-protection"
+            },
+            {
+                "key": "field_66724ba802401",
+                "label": "Список направлений",
+                "name": "directions_list",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_66724ba802403",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Добавить направление",
+                "sub_fields": [
+                    {
+                        "key": "field_66724ba802402",
+                        "label": "Иконка",
+                        "name": "direction_icon",
+                        "type": "image",
+                        "instructions": "Загрузите PNG/WebP/SVG иконку.",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "thumbnail",
+                        "library": "all"
+                    },
+                    {
+                        "key": "field_66724ba802403",
+                        "label": "Название",
+                        "name": "direction_title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "70",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724ba802404",
+                        "label": "Описание",
+                        "name": "direction_text",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "new_lines": "br",
+                        "rows": 2
+                    }
+                ]
+            },
+            {
+                "key": "field_66724ba802405",
+                "label": "Новости",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba802406",
+                "label": "Заголовок блока",
+                "name": "news_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Новости"
+            },
+            {
+                "key": "field_66724ba802407",
+                "label": "Текст ссылки Все новости",
+                "name": "news_btn_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Все новости"
+            },
+            {
+                "key": "field_66724ba802408",
+                "label": "Ссылка Все новости",
+                "name": "news_btn_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "/news"
+            },
+            {
+                "key": "field_66724ba802409",
+                "label": "О предприятии",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba80240a",
+                "label": "Заголовок блока",
+                "name": "about_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "О предприятии"
+            },
+            {
+                "key": "field_66724ba80240b",
+                "label": "Текст описания",
+                "name": "about_text",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "РГКП «ПО Охотзоопром» — республиканское государственное казённое предприятие, созданное для управления охотничьими ресурсами, охраны и воспроизводства животного мира Казахстана. Предприятие подчинено Комитету лесного хозяйства и животного мира Министерства экологии и природных ресурсов РК.",
+                "new_lines": "br",
+                "rows": 4
+            },
+            {
+                "key": "field_66724ba80240c",
+                "label": "Текст кнопки",
+                "name": "about_btn_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Подробнее об организации"
+            },
+            {
+                "key": "field_66724ba80240d",
+                "label": "Ссылка кнопки",
+                "name": "about_btn_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "/about"
+            },
+            {
+                "key": "field_66724ba80240e",
+                "label": "Карточки показателей",
+                "name": "about_stats",
+                "type": "repeater",
+                "instructions": "Добавьте карточки с числами и подписями.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_66724ba802410",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Добавить показатель",
+                "sub_fields": [
+                    {
+                        "key": "field_66724ba80240f",
+                        "label": "Число / Показатель",
+                        "name": "stat_number",
+                        "type": "text",
+                        "instructions": "Например: 1994, 17, 14, 500",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724ba802410",
+                        "label": "Суффикс",
+                        "name": "stat_suffix",
+                        "type": "text",
+                        "instructions": "Например: г., +, обл., сотрудников",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_66724ba802411",
+                        "label": "Описание",
+                        "name": "stat_label",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "new_lines": "br",
+                        "rows": 2
+                    }
+                ]
+            },
+            {
+                "key": "field_66724ba802418",
+                "label": "Нормативные документы",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba802419",
+                "label": "Заголовок блока",
+                "name": "docs_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Нормативные документы"
+            },
+            {
+                "key": "field_66724ba80241a",
+                "label": "Текст ссылки Все документы",
+                "name": "docs_btn_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Все документы"
+            },
+            {
+                "key": "field_66724ba80241b",
+                "label": "Заголовок архивной карточки",
+                "name": "docs_archive_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Все документы и архив"
+            },
+            {
+                "key": "field_66724ba80241c",
+                "label": "Текст перехода в архив",
+                "name": "docs_archive_meta",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Перейти в раздел"
+            },
+            {
+                "key": "field_66724ba80242a",
+                "label": "Государственные закупки",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_66724ba80242b",
+                "label": "Заголовок блока",
+                "name": "procurement_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Государственные закупки"
+            },
+            {
+                "key": "field_66724ba80242c",
+                "label": "Текст ссылки Все закупки",
+                "name": "procurement_btn_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Все закупки на goszakup.gov.kz"
+            },
+            {
+                "key": "field_66724ba80242d",
+                "label": "Ссылка на портал госзакупок",
+                "name": "procurement_btn_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "https://goszakup.gov.kz"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

@@ -1,0 +1,432 @@
+[
+    {
+        "key": "group_about_page_fields",
+        "title": "Страница О предприятии",
+        "fields": [
+            {
+                "key": "field_about_tab_hero",
+                "label": "Hero-секция",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_about_hero_badge",
+                "label": "Надзаголовок",
+                "name": "about_hero_badge",
+                "type": "text",
+                "default_value": "РГКП «ПО Охотзоопром» · Республика Казахстан"
+            },
+            {
+                "key": "field_about_hero_desc",
+                "label": "Описание",
+                "name": "about_hero_desc",
+                "type": "textarea",
+                "default_value": "РГКП «ПО Охотзоопром» — республиканское государственное казённое предприятие, созданное для управления охотничьими ресурсами, охраны и воспроизводства животного мира Казахстана. Предприятие подчинено Комитету лесного хозяйства и животного мира МЭиПР РК.",
+                "rows": 3
+            },
+            {
+                "key": "field_about_hero_stats",
+                "label": "Показатели (Статистика)",
+                "name": "about_hero_stats",
+                "type": "repeater",
+                "layout": "table",
+                "button_label": "Добавить показатель",
+                "sub_fields": [
+                    {
+                        "key": "field_about_hero_stat_number",
+                        "label": "Число / Значение",
+                        "name": "number",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_hero_stat_suffix",
+                        "label": "Суффикс (например, г., +, %)",
+                        "name": "suffix",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_hero_stat_label",
+                        "label": "Описание показателя",
+                        "name": "label",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "key": "field_about_tab_history",
+                "label": "История",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_about_history_title",
+                "label": "Заголовок секции История",
+                "name": "about_history_title",
+                "type": "text",
+                "default_value": "История предприятия"
+            },
+            {
+                "key": "field_about_history_intro",
+                "label": "Вводный текст истории",
+                "name": "about_history_intro",
+                "type": "textarea",
+                "default_value": "РГКП «ПО Охотзоопром» основано в 1994 году. За более чем 30 лет работы предприятие стало одной из ключевых государственных организаций в сфере охраны, воспроизводства и рационального использования животного мира Республики Казахстан.",
+                "rows": 3
+            },
+            {
+                "key": "field_about_history_timeline",
+                "label": "Таймлайн (Хронология)",
+                "name": "about_history_timeline",
+                "type": "repeater",
+                "layout": "row",
+                "button_label": "Добавить событие",
+                "sub_fields": [
+                    {
+                        "key": "field_about_history_date",
+                        "label": "Период / Год",
+                        "name": "date",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_history_title",
+                        "label": "Заголовок события",
+                        "name": "title",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_history_text",
+                        "label": "Описание события",
+                        "name": "text",
+                        "type": "textarea",
+                        "rows": 2
+                    }
+                ]
+            },
+            {
+                "key": "field_about_tab_mission",
+                "label": "Миссия и цели",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_about_mission_title",
+                "label": "Заголовок секции Миссия",
+                "name": "about_mission_title",
+                "type": "text",
+                "default_value": "Миссия и цели"
+            },
+            {
+                "key": "field_about_mission_intro",
+                "label": "Вводный текст миссии",
+                "name": "about_mission_intro",
+                "type": "textarea",
+                "default_value": "Деятельность предприятия направлена на сохранение биологического разнообразия и устойчивое использование животного мира в интересах государства и будущих поколений.",
+                "rows": 3
+            },
+            {
+                "key": "field_about_mission_quote_label",
+                "label": "Ярлык цитаты",
+                "name": "about_mission_quote_label",
+                "type": "text",
+                "default_value": "миссия"
+            },
+            {
+                "key": "field_about_mission_quote_text",
+                "label": "Текст миссии (цитата)",
+                "name": "about_mission_quote_text",
+                "type": "textarea",
+                "default_value": "Сохранение животного мира Казахстана через охрану, воспроизводство и рациональное использование биологических ресурсов на основе государственной природоохранной политики.",
+                "rows": 3
+            },
+            {
+                "key": "field_about_tasks_title",
+                "label": "Заголовок блока Основные задачи",
+                "name": "about_tasks_title",
+                "type": "text",
+                "default_value": "Основные задачи"
+            },
+            {
+                "key": "field_about_mission_tasks",
+                "label": "Основные задачи",
+                "name": "about_mission_tasks",
+                "type": "repeater",
+                "layout": "row",
+                "button_label": "Добавить задачу",
+                "sub_fields": [
+                    {
+                        "key": "field_about_mission_task_title",
+                        "label": "Заголовок задачи",
+                        "name": "title",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_mission_task_text",
+                        "label": "Описание задачи",
+                        "name": "text",
+                        "type": "textarea",
+                        "rows": 2
+                    }
+                ]
+            },
+            {
+                "key": "field_about_values_title",
+                "label": "Заголовок блока Ценности",
+                "name": "about_values_title",
+                "type": "text",
+                "default_value": "Ценности"
+            },
+            {
+                "key": "field_about_mission_values",
+                "label": "Ценности",
+                "name": "about_mission_values",
+                "type": "repeater",
+                "layout": "row",
+                "button_label": "Добавить ценность",
+                "sub_fields": [
+                    {
+                        "key": "field_about_mission_value_icon",
+                        "label": "Иконка",
+                        "name": "icon",
+                        "type": "image",
+                        "return_format": "url"
+                    },
+                    {
+                        "key": "field_about_mission_value_title",
+                        "label": "Название",
+                        "name": "title",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_mission_value_text",
+                        "label": "Описание",
+                        "name": "text",
+                        "type": "textarea",
+                        "rows": 2
+                    }
+                ]
+            },
+            {
+                "key": "field_about_tab_management",
+                "label": "Руководство",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_about_management_title",
+                "label": "Заголовок секции Руководство",
+                "name": "about_management_title",
+                "type": "text",
+                "default_value": "Руководство предприятия"
+            },
+            {
+                "key": "field_about_management_intro",
+                "label": "Вводный текст руководства",
+                "name": "about_management_intro",
+                "type": "textarea",
+                "default_value": "Управление РГКП «ПО Охотзоопром» осуществляется руководящим составом, назначенным в установленном порядке в соответствии с законодательством Республики Казахстан. Руководители предприятия несут ответственность за реализацию государственной политики в области охраны, воспроизводства и рационального использования животного мира.",
+                "rows": 3
+            },
+            {
+                "key": "field_about_management_members",
+                "label": "Члены руководства",
+                "name": "about_management_members",
+                "type": "repeater",
+                "layout": "row",
+                "button_label": "Добавить руководитель",
+                "sub_fields": [
+                    {
+                        "key": "field_about_management_photo",
+                        "label": "Фото",
+                        "name": "photo",
+                        "type": "image",
+                        "return_format": "url"
+                    },
+                    {
+                        "key": "field_about_management_name",
+                        "label": "ФИО",
+                        "name": "name",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_management_position",
+                        "label": "Должность",
+                        "name": "position",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_management_highlight",
+                        "label": "Выделить карточку (большой размер)",
+                        "name": "highlight",
+                        "type": "true_false",
+                        "default_value": 0,
+                        "ui": 1
+                    }
+                ]
+            },
+            {
+                "key": "field_about_tab_structure",
+                "label": "Структура",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_about_structure_title",
+                "label": "Заголовок секции Структура",
+                "name": "about_structure_title",
+                "type": "text",
+                "default_value": "Структура предприятия"
+            },
+            {
+                "key": "field_about_structure_intro",
+                "label": "Вводный текст структуры",
+                "name": "about_structure_intro",
+                "type": "textarea",
+                "default_value": "Организационная структура РГКП «ПО Охотзоопром» построена по функциональному принципу и обеспечивает реализацию задач в области охраны, учёта и воспроизводства животного мира.",
+                "rows": 3
+            },
+            {
+                "key": "field_about_structure_top_title",
+                "label": "Верхний бокс (Генеральный директор) - Заголовок",
+                "name": "org_chart_top_title",
+                "type": "text",
+                "default_value": "Генеральный директор"
+            },
+            {
+                "key": "field_about_structure_top_desc",
+                "label": "Верхний бокс (Генеральный директор) - Описание",
+                "name": "org_chart_top_desc",
+                "type": "text",
+                "default_value": "Руководство предприятием"
+            },
+            {
+                "key": "field_about_structure_chart_bottom",
+                "label": "Нижние боксы структуры",
+                "name": "org_chart_bottom",
+                "type": "repeater",
+                "layout": "table",
+                "button_label": "Добавить блок",
+                "sub_fields": [
+                    {
+                        "key": "field_about_structure_chart_title",
+                        "label": "Заголовок блока",
+                        "name": "title",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_structure_chart_desc",
+                        "label": "Описание блока",
+                        "name": "desc",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "key": "field_about_structure_subtitle",
+                "label": "Заголовок подсекции Подразделения аппарата",
+                "name": "about_structure_subtitle",
+                "type": "text",
+                "default_value": "Структурные подразделения аппарата"
+            },
+            {
+                "key": "field_about_structure_departments",
+                "label": "Структурные подразделения аппарата",
+                "name": "about_structure_departments",
+                "type": "repeater",
+                "layout": "row",
+                "button_label": "Добавить подразделение",
+                "sub_fields": [
+                    {
+                        "key": "field_about_structure_dep_title",
+                        "label": "Название подразделения",
+                        "name": "title",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_structure_dep_desc",
+                        "label": "Описание / Сфера деятельности",
+                        "name": "desc",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "key": "field_about_tab_departments",
+                "label": "Филиалы",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_about_departments_title",
+                "label": "Заголовок секции Филиалы",
+                "name": "about_departments_title",
+                "type": "text",
+                "default_value": "Территориальные подразделения"
+            },
+            {
+                "key": "field_about_departments_intro",
+                "label": "Вводный текст филиалов",
+                "name": "about_departments_intro",
+                "type": "textarea",
+                "default_value": "РГКП «ПО \"Охотзоопром\"» - разделено на Региональные филиалы, каждый из которых патрулирует закрепленные зоны обитания",
+                "rows": 3
+            },
+            {
+                "key": "field_about_departments_branches",
+                "label": "Список филиалов",
+                "name": "about_departments_branches",
+                "type": "repeater",
+                "layout": "row",
+                "button_label": "Добавить филиал",
+                "sub_fields": [
+                    {
+                        "key": "field_about_departments_branch_title",
+                        "label": "Название филиала",
+                        "name": "title",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_departments_branch_address",
+                        "label": "Адрес",
+                        "name": "address",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_about_departments_branch_phone",
+                        "label": "Телефон",
+                        "name": "phone",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-about.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

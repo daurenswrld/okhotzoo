@@ -1,0 +1,9 @@
+# Exclude WordPress configuration
+wp-config.php
+# Optional: ignore OS-specific files
+Thumbs.db
+.DS_Store
+# Ignore node_modules if any
+node_modules/
+# Ignore compiled assets
+*.log

@@ -1,0 +1,154 @@
+[
+    {
+        "key": "group_news_page_fields",
+        "title": "Страница новостей (Настройки)",
+        "fields": [
+            {
+                "key": "field_news_hero_bg",
+                "label": "Фон баннера (Изображение)",
+                "name": "news_hero_bg",
+                "type": "image",
+                "instructions": "Загрузите фоновое изображение для шапки страницы. Рекомендуется размер 1920x800.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all"
+            },
+            {
+                "key": "field_news_hero_badge",
+                "label": "Надзаголовок (Badge)",
+                "name": "news_hero_badge",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "РГКП «ПО Охотзоопром» · Республика Казахстан"
+            },
+            {
+                "key": "field_news_hero_title",
+                "label": "Заголовок первого экрана",
+                "name": "news_hero_title",
+                "type": "text",
+                "instructions": "Если пусто, будет выводиться заголовок последней опубликованной новости.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_news_hero_desc",
+                "label": "Описание первого экрана",
+                "name": "news_hero_desc",
+                "type": "textarea",
+                "instructions": "Если пусто, будет выводиться отрывок (excerpt) последней опубликованной новости.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_news_hero_stats",
+                "label": "Карточки статистики",
+                "name": "news_hero_stats",
+                "type": "repeater",
+                "instructions": "Добавьте карточки показателей. Если пусто, выведутся стандартные 4 карточки.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_news_stat_number",
+                "min": 0,
+                "max": 4,
+                "layout": "table",
+                "button_label": "Добавить показатель",
+                "sub_fields": [
+                    {
+                        "key": "field_news_stat_number",
+                        "label": "Число / Показатель",
+                        "name": "stat_number",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_news_stat_suffix",
+                        "label": "Суффикс",
+                        "name": "stat_suffix",
+                        "type": "text",
+                        "instructions": "Например: +, г., обл.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_news_stat_label",
+                        "label": "Описание",
+                        "name": "stat_label",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "rows": 2
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "news.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

@@ -1,0 +1,349 @@
+[
+    {
+        "key": "group_activity_page_fields",
+        "title": "Страница деятельности (Настройки)",
+        "fields": [
+            {
+                "key": "field_activity_desc",
+                "label": "Описание первого экрана",
+                "name": "activity_desc",
+                "type": "textarea",
+                "instructions": "Краткое описание направления деятельности на первом экране.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_activity_directions_tab",
+                "label": "Направления",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_activity_directions",
+                "label": "Основные направления деятельности",
+                "name": "activity_directions",
+                "type": "repeater",
+                "instructions": "Добавьте направления деятельности. Если пусто, будут показаны значения по умолчанию.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_activity_dir_title",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "Добавить направление",
+                "sub_fields": [
+                    {
+                        "key": "field_activity_dir_title",
+                        "label": "Заголовок",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "40",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_activity_dir_img",
+                        "label": "Иконка/Изображение",
+                        "name": "img",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "thumbnail",
+                        "library": "all"
+                    },
+                    {
+                        "key": "field_activity_dir_color",
+                        "label": "Цветовая гамма иконки",
+                        "name": "color",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "green": "Зеленый",
+                            "yellow": "Желтый",
+                            "orange": "Оранжевый"
+                        },
+                        "default_value": "green",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_activity_dir_desc",
+                        "label": "Описание",
+                        "name": "desc",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "rows": 3
+                    }
+                ]
+            },
+            {
+                "key": "field_activity_achievements_tab",
+                "label": "Достижения",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_activity_achievements",
+                "label": "Наши достижения",
+                "name": "activity_achievements",
+                "type": "repeater",
+                "instructions": "Карточки достижений. Если пусто, будут показаны значения по умолчанию.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_activity_ach_label",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Добавить достижение",
+                "sub_fields": [
+                    {
+                        "key": "field_activity_ach_num",
+                        "label": "Число",
+                        "name": "num",
+                        "type": "text",
+                        "instructions": "Например: 1 200, 340, 100",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_activity_ach_suffix",
+                        "label": "Суффикс",
+                        "name": "suffix",
+                        "type": "text",
+                        "instructions": "Например: +, %, тыс.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "15",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_activity_ach_img",
+                        "label": "Иконка",
+                        "name": "img",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "thumbnail",
+                        "library": "all"
+                    },
+                    {
+                        "key": "field_activity_ach_label",
+                        "label": "Описание под показателем",
+                        "name": "label",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "35",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_activity_details_tab",
+                "label": "Детали и Инфо",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_activity_details_badge",
+                "label": "Надзаголовок (Badge)",
+                "name": "details_badge",
+                "type": "text",
+                "instructions": "Маленький серый заголовок над текстом. Например: о направлении",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "о направлении"
+            },
+            {
+                "key": "field_activity_details_text",
+                "label": "Детальное описание (по абзацам)",
+                "name": "details_text",
+                "type": "textarea",
+                "instructions": "Описание деятельности. Разделяйте абзацы переносом строки (Enter).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "70",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "new_lines": "wpautop",
+                "rows": 6
+            },
+            {
+                "key": "field_activity_details_info",
+                "label": "Правая панель (Списки преимуществ/особенностей)",
+                "name": "details_info",
+                "type": "repeater",
+                "instructions": "Элементы списка в правой карточке. Если пусто, будут показаны значения по умолчанию.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_activity_details_info_text",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Добавить пункт",
+                "sub_fields": [
+                    {
+                        "key": "field_activity_details_info_img",
+                        "label": "Иконка",
+                        "name": "img",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "thumbnail",
+                        "library": "all"
+                    },
+                    {
+                        "key": "field_activity_details_info_text",
+                        "label": "Текст",
+                        "name": "text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "70",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-activity.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
