@@ -1,5 +1,6 @@
 # Exclude WordPress configuration
 wp-config.php
+.htaccess
 # Optional: ignore OS-specific files
 Thumbs.db
 .DS_Store
